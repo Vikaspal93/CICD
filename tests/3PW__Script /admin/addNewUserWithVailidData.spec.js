@@ -25,6 +25,7 @@ test('Add new User with vailid data', async()=>{
     await page.locator("(//div[@class='oxd-select-text--after'])[2]").click();
     const statusDropDown = page.locator("//div[@role='listbox']");
     await statusDropDown.first().click();
+    console.log("sangeetha");
 
     await page.locator("(//input[@class='oxd-input oxd-input--active'])[2]").fill(scenario1.addUserName);
     await page.locator("(//input[@type='password'])[1]").fill(scenario1.addUserPassword);
