@@ -8,6 +8,7 @@ test('Add new User with vailid data', async()=>{
     const admin = new NewUser(page);
     await admin.clickonadmin.click();
     //await page.goto(common.url);
+    console.log("chcking CICD")
     //await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
     //await page.locator("//input[@name='username']").fill(common.userName);
     //await page.locator("//input[@name='username']").fill("Admin");
